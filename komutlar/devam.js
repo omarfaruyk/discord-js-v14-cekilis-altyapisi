@@ -34,7 +34,7 @@ module.exports = {
         }).catch((e) => {
                 
             const errorbulunmadı2 = new Discord.EmbedBuilder()
-            .setDescription(`Bu Çekiliş Ya **Bitmiş** Ya da **Böyle Bir Çekiliş Yok**`)
+            .setDescription(`Bu Çekiliş Ya **Devam Ediyor** Ya da **Böyle Bir Çekiliş Yok**`)
             .setColor('Red')
             return interaction.reply({ embeds: [errorbulunmadı2] })
         })
